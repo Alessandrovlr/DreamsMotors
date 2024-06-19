@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nissan 350z</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../main.js" defer></script>
+</head>
+<body>
+    <header class="navBar">
+        
+        <nav class="navinicio">
+            <ul class="links">
+                 
+                <li><a href="../index.html">DreamsMotors</a></li>
+                <li><a href="../compra.html">Compras</a></li>
+                <li><a href="../Sobre.html">Sobre</a></li>
+                <li class="dropdown1">
+                    <span id="nomeUsuarioSpan" onclick="bemVindo()" class="nomeUs"></span>
+                    <div class="menu-sair">
+                        <a href="" onclick="sair()">sair</a>
+                    </div>
+                    
+                </li>
+                <li class="dropdown">
+                    <a id="usuario">Entrar</a>
+    
+                   <div class="dropdown-menu">
+                         <a href="../login.html">Login</a>
+                         <a href="../registro.html">Registrar</a>
+                         <a href="">Admin</a>
+                    </div> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pagCarros">
+        <div class="tabela">
+            <img class="imgCarCompra" src="..\carros/350z.jpg" alt="imagem carro nissan Gtr-35" style="margin-top: 90px;">
+            <p class="descricaoCarCompra">O 350Z (conhecido no Japão como Fairlady Z33), é um carro esportivo fabricado pela Nissan, produzido entre 2001 e 2009. O 350Z é o quinto da geração da linhagem Nissan Z, inicialmente introduzido em 1969[1] (como um modelo ano 1970) como o Datsun 240Z. O 350Z entrou em produção no final de 2001.</p>
+           
+            <div >
+                <table border="1" style="height: 200px; width: 500px;">
+                    <tr>
+                        <th>carro</th>
+                        <th>meses</th>
+                        <th>parcelas</th>
+                    </tr>
+
+                    <tr>
+                        <th>Nissan 350z </th>
+                        <th>até 28x de</th>
+                        <th>R$ 9.033</th>
+                    </tr>
+
+                    <tr>
+                        <th>Nissan 350z </th>
+                        <th>até 22x de</th>
+                        <th>R$ 11.496</th>
+                    </tr>
+
+                    <tr>
+                        <th>Nissan 350z</th>
+                        <th>até 15x de</th>
+                        <th>R$ 16.862</th>
+                    </tr>
+
+                    <tr>
+                        <th>Nissan 350z</th>
+                        <th>até 5x de</th>
+                        <th>R$ 50.586</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="carrinho2">
+            <button class="carrinho" id="carrinho" onclick="verificaDados('nissan350z', '252.932')">Adicionar ao carrinho</button>
+        </div>
+        
+        <div class="carrinho2">
+            <button class="carrinho" id="" onclick="mostraComprovante('nissan350z')">Ver comprovante</button>
+        </div>
+
+        <div>
+            <p id="comprovante"></p>
+        </div>
+
+        <div class="Compras">
+            <a href="Ver Sobre"></a>
+        </div>
+    </main>
+    <footer id="rodape">
+
+        <div class="midia-social">
+
+            <div class="Ale">
+                <a href="https://www.instagram.com/alezinvlr/" target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/alessandro-coutinho-086790310/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/Alessandrovlr"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+
+            <div class="inf-site">
+                <h2>Informações sobre o site</h2>
+                <p><span class="bold">Dreams Motors</span>&copy;2024</p>
+            </div>
+
+            <div class="Klein">
+                <a href="https://github.com/KauaKlein"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/kauã-klein-3a461524a/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/kauakleiin/" target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

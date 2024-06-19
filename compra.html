@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico/silh.ico" type="image/x-icon">
+    <title>CompreMotors</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="navBar">
+        
+        <nav class="navinicio">
+            <ul class="links">
+                 
+                <li><a href="index.html">DreamsMotors</a></li>
+                <li><a href="compra.html">Compras</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li class="dropdown1">
+                    <span id="nomeUsuarioSpan" onclick="bemVindo()" class="nomeUs"></span>
+                    <div class="menu-sair">
+                        <a href="" onclick="sair()">sair</a>
+                    </div>
+                    
+                </li>
+                <li class="dropdown">
+                    <a id="usuario">Entrar</a>
+    
+                   <div class="dropdown-menu">
+                         <a href="login.html">Login</a>
+                         <a href="registro.html">Registrar</a>
+                         <a href="">Admin</a>
+                    </div> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="sonhos">
+        <section class="produtoSonhos"><br>
+            <h1>Compre seu carro dos sonhos</h1>
+            <hr>
+            <article class="card">
+                <div class="product-image" id="img-1"></div>
+                <h3>Bmw X</h3>
+                
+                <p>R$ <span id="ha" class="bold">731.950</span></p>
+                <a onclick="" class="btn" href="htmlcarros/bmwx.html" >ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-2"></div>
+                <h3>Nissan Gtr 35</h3>
+                
+                <p>R$ <span id="th" class="bold">959.990</span></p>
+                <a class="btn" href="htmlcarros/nissanGtr35.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-3"></div>
+                <h3>Byd Seal U</h3>
+                <p>R$ <span id="th" class="bold">279.800</span></p>
+               
+                <a class="btn" href="htmlcarros/bydSealu.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-4"></div>
+                <h3>Tesla Model X</h3>
+                <p>R$ <span id="th" class="bold">441.940</span></p>
+                
+                <a  class="btn" href="htmlcarros/modelx.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-5"></div>
+                <h3>Rolls Royce DropTail </h3>
+               
+                <p>R$ <span id="ca" class="bold">158.000.000</span></p>
+                <a class="btn" href="htmlcarros/dropTail.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-6"></div>
+                <h3>Cle 53</h3>
+                
+                <p>R$ <span id="cm" class="bold">349.990</span></p>
+                <a  class="btn" href="htmlcarros/mercedesCle53.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-7"></div>
+                <h3>350z</h3>
+                <p>R$ <span id="cm" class="bold">252.932</span></p>
+                <a class="btn" href="htmlcarros/nissan350z.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-8"></div>
+                <h3>Bmw I5</h3>
+                <p>R$ <span id="cm" class="bold">759.950</span></p>
+                <a class="btn" href="htmlcarros/bmwI5.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-9"></div>
+                <h3>Dolphin</h3>
+                <p>R$ <span id="cm" class="bold">149.800</span></p>
+                <a class="btn" href="htmlcarros/bydDolphin.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-10"></div>
+                <h3>G-63</h3>
+                <p>R$ <span id="cm" class="bold"> 2.247.900</span></p>
+                <a class="btn" href="htmlcarros/mercedesG63.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-11"></div>
+                <h3>Spectre</h3>
+                <p>R$ <span id="cm" class="bold">1.960.000</span></p>
+                <a class="btn" href="htmlcarros/spectre.html">ver parcelas</a>
+            </article>
+
+            <article class="card">
+                <div class="product-image" id="img-12"></div>
+                <h3>Cybertruck</h3>
+                <p>R$ <span id="cm" class="bold">502.000</span></p>
+                <a class="btn" href="htmlcarros/cybertruck.html">ver parcelas</a>
+            </article>
+
+        </section>
+    </main>
+    <footer id="rodape">
+
+        <div class="midia-social">
+
+            <div class="Ale">
+                <a href="https://www.instagram.com/alezinvlr/" target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/alessandro-coutinho-086790310/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/Alessandrovlr"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+
+            <div class="inf-site">
+                <h2>Informações sobre o site</h2>
+                <p><span class="bold">Dreams Motors</span>&copy;2024</p>
+            </div>
+
+            <div class="Klein">
+                <a href="https://github.com/KauaKlein"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/kauã-klein-3a461524a/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/kauakleiin/" target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

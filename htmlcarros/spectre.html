@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico/silh.ico" type="image/x-icon">
+    <title>Spectre</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../main.js" defer></script>
+</head>
+<body>
+    <header class="navBar">
+        
+        <nav class="navinicio">
+            <ul class="links">
+                 
+                <li><a href="../index.html">DreamsMotors</a></li>
+                <li><a href="../compra.html">Compras</a></li>
+                <li><a href="../Sobre.html">Sobre</a></li>
+                <li class="dropdown1">
+                    <span id="nomeUsuarioSpan" onclick="bemVindo()" class="nomeUs"></span>
+                    <div class="menu-sair">
+                        <a href="" onclick="sair()">sair</a>
+                    </div>
+                    
+                </li>
+                <li class="dropdown">
+                    <a id="usuario">Entrar</a>
+    
+                   <div class="dropdown-menu">
+                         <a href="../login.html">Login</a>
+                         <a href="../registro.html">Registrar</a>
+                         <a href="">Admin</a>
+                    </div> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pagCarros">
+        <div class="tabela">
+            <img class="imgCarCompra" src="../carros/spectre.jpg" alt="imagem carro Spectre" style="margin-top: 90px;">
+            <p class="descricaoCarCompra">A Mercedes-Benz é uma marca alemã de automóveis pertencente a Mercedes-Benz Group criada em 1924, sendo resultado de uma fusão entre a Benz & Cie. e a Daimler-Motoren-Gesellschaft, é uma das mais antigas fabricantes de automóveis do mundo. Também produz caminhões, autocarros e os seus próprios motores.</p>
+            
+            <div >
+                <table border="1" style="height: 200px; width: 500px;">
+                    <tr>
+                        <th>carro</th>
+                        <th>meses</th>
+                        <th>parcelas</th>
+                    </tr>
+
+                    <tr>
+                        <th>Spectre</th>
+                        <th>até 28x de</th>
+                        <th>R$ 70.000</th>
+                    </tr>
+
+                    <tr>
+                        <th>Spectre</th>
+                        <th>até 22x de</th>
+                        <th>R$ 89.090</th>
+                    </tr>
+
+                    <tr>
+                        <th>Spectre</th>
+                        <th>até 15x de</th>
+                        <th>R$ 130.666</th>
+                    </tr>
+
+                    <tr>
+                        <th>Spectre</th>
+                        <th>até 5x de</th>
+                        <th>R$ 392.000</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+
+        <div class="carrinho2">
+            <button class="carrinho" id="carrinho" onclick="verificaDados('spectre', '1.960000')">Adicionar ao carrinho</button>
+        </div>
+    
+        <div class="carrinho2">
+            <button class="carrinho" id="" onclick="mostraComprovante('spectre')">Ver comprovante</button>
+        </div>
+
+        <div>
+            <p id="comprovante"></p>
+        </div>
+
+        <div class="Compras">
+            <a href="Ver Sobre"></a>
+        </div>
+        
+    </main>
+    <footer id="rodape">
+
+        <div class="midia-social">
+
+            <div class="Ale">
+                <a href="https://www.instagram.com/alezinvlr/" target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/alessandro-coutinho-086790310/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/Alessandrovlr"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+
+            <div class="inf-site">
+                <h2>Informações sobre o site</h2>
+                <p><span class="bold">Dreams Motors</span>&copy;2024</p>
+            </div>
+
+            <div class="Klein">
+                <a href="https://github.com/KauaKlein"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/kauã-klein-3a461524a/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/kauakleiin/" target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
